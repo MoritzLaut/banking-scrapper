@@ -1,0 +1,18 @@
+{
+  "name": "dkb-scrapper",
+  "version": "1.0.0",
+  "description": "Scrapping Banking Data from DKB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js --headless=false",
+    "start": "node index.js --headless=true"
+  },
+  "author": "Moritz Lautenschlager",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^2.1.1"
+  }
+}
